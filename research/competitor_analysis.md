@@ -150,3 +150,131 @@ This remains a hypothesis. Further competitor investigation, dataset analysis, e
 3. Vakalat.School AI Moot — [https://www.vakalat.school/ai-moot](https://www.vakalat.school/ai-moot)
 4. Shisho — [https://www.shisho.cloud/](https://www.shisho.cloud/)
 
+# 8. Deep-Dive Analysis: Tark
+
+**Website:** [https://www.thinkwithtark.com/](https://www.thinkwithtark.com/)
+**Review date:** 10 November 2026
+**Competitor category:** AI-powered legal reasoning education
+**Overlap with Ratiqora:** Very high
+
+## 8.1 Product Workflow
+
+Tark advertises a Socratic learning workflow.
+
+Its process:
+
+1. The student receives a legal question.
+2. The student provides an initial response.
+3. Tark analyses the response.
+4. It asks a follow-up question based on the student's reasoning.
+5. It gradually provides hints when necessary.
+6. The student attempts to reach a reasoned conclusion independently.
+
+Tark also describes answer-leak evaluations intended to prevent the tutor from revealing the answer too early.
+
+## 8.2 Reasoning-Arc Visualisation
+
+Tark converts student conversations into visual reasoning paths.
+
+Its advertised elements include:
+
+- Issue: the legal question identified by the student.
+- Move: the argument or reasoning step made by the student.
+- Gap: the weakness identified in the reasoning.
+- Resolution: the way the reasoning develops after addressing the gap.
+
+This feature overlaps with Ratiqora's earlier proposed reasoning visualisation.
+
+## 8.3 TRIM — TARK Reasoning Intervention Method
+
+Tark describes TRIM as its proprietary reasoning diagnostic method.
+
+It evaluates student reasoning against faculty-authored rubrics and more than 70 checkpoints.
+
+Its publicly described reasoning-gap categories include:
+
+1. Missed Issue.
+2. Rule Misapplication.
+3. Conflation(combine 2 or more).
+4. Circular Reasoning.
+5. Overgeneralization.
+6. Ignored Counterargument.
+7. Unsupported Assertion.
+8. Authority Misuse.
+
+**Finding:** Reasoning-error identification and structured rubric-based feedback cannot independently be claimed as Ratiqora's unique contribution.
+
+## 8.4 Faculty and Institutional Features
+
+Tark advertises:
+
+- Faculty-authored rubrics.
+- Individual reasoning-arc reviews.
+- Cohort-level competency reports.
+- Identification of common reasoning difficulties.
+- Faculty correction and validation of diagnoses.
+- Educational competency reporting.
+- Institutional pilots with control-group outcome measurement.
+
+**Finding:** Institutional assessment and cohort analytics are also existing advertised capabilities.
+
+## 8.5 Research and Development Evidence
+
+A public AI Grand Challenge submission describes Tark.AI as a reasoning-first legal education platform using Socratic logic trees, structured reasoning, multilingual support and TRIM.
+
+The submission is useful evidence of the team's stated design and development direction.
+
+However, the submission and product website do not independently establish the accuracy of all diagnostic features or the size of any measured learning improvement.
+
+## 8.6 Ratiqora Feature Overlap
+
+| Proposed feature                                             | Tark overlap    |
+| ------------------------------------------------------------ | --------------- |
+| Socratic questioning                                         | High            |
+| Step-by-step reasoning practice                              | High            |
+| Reasoning-gap diagnosis                                      | High            |
+| Rubric-based assessment                                      | High            |
+| Visual reasoning paths                                       | High            |
+| Faculty analytics                                            | High            |
+| Learning-outcome measurement                                 | High            |
+| Constitutional Law evaluation benchmark                      | Not established |
+| Retrieval relevance evaluation                               | Not established |
+| Citation correctness evaluation                              | Not established |
+| Unfamiliar-case transfer evaluation with independent scoring | Not established |
+
+"Not established" means that the capability has not been verified in the public sources reviewed. It does not mean that Tark lacks the capability.
+
+## 8.7 Research Implications for Ratiqora
+
+Ratiqora should not attempt to differentiate itself merely through Socratic tutoring, reasoning-gap diagnosis, rubrics, visualisation or student analytics.
+
+Instead, investigate these research questions:
+
+### Research Question A — Source-grounded feedback reliability
+
+Can we systematically evaluate whether each important statement in AI-generated legal feedback is supported by relevant passages from the source judgments?
+
+### Research Question B — Retrieval quality
+
+Can we measure whether the RAG pipeline retrieves the correct passages for specific Constitutional Law issues?
+
+### Research Question C — Unfamiliar-case transfer
+
+Can learners improve their performance when applying legal principles to unfamiliar cases after practising with Ratiqora?
+
+### Research Question D — Appropriate abstention(Ai knows when to not answer)
+
+Can the system recognise when the retrieved evidence is insufficient and avoid guessing or generating unsupported legal conclusions?
+
+## 8.8 Preliminary Conclusion
+
+Tark is a very high-overlap competitor and substantially narrows the scope for claiming novelty in legal reasoning education.
+
+The strongest direction for further investigation is a reproducible, source-grounded evaluation framework focused on Indian Constitutional Law, retrieval quality, citation support and transfer to unfamiliar cases.
+
+This is a proposed research direction, not a confirmed market gap. It requires further competitor investigation, dataset feasibility checks, expert review and experimental validation.
+
+## 8.9 Sources
+
+1. Official Tark legal education website: [https://www.thinkwithtark.com/](https://www.thinkwithtark.com/)
+2. AI Grand Challenge submission: [https://aigrandchallenge.inria.fr/processes/AI/f/41/proposals/101?component_id=41&locale=en](https://aigrandchallenge.inria.fr/processes/AI/f/41/proposals/101?component_id=41\&locale=en)
