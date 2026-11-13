@@ -278,3 +278,40 @@ This is a proposed research direction, not a confirmed market gap. It requires f
 
 1. Official Tark legal education website: [https://www.thinkwithtark.com/](https://www.thinkwithtark.com/)
 2. AI Grand Challenge submission: [https://aigrandchallenge.inria.fr/processes/AI/f/41/proposals/101?component_id=41&locale=en](https://aigrandchallenge.inria.fr/processes/AI/f/41/proposals/101?component_id=41\&locale=en)
+
+## 9. Final Conclusion — Tark Investigation
+
+**Investigation status:** Initial public-source investigation completed.  
+**Competitor classification:** Direct competitor.  
+**Overlap with Ratiqora:** Very high.
+
+### Key Findings
+
+Tark already advertises Socratic legal tutoring, adaptive questioning, reasoning-arc visualisation, reasoning-gap diagnosis, faculty-authored rubrics, TRIM-based assessment, cohort analytics and institutional learning-outcome pilots.
+
+Consequently, Ratiqora cannot claim novelty merely through AI tutoring, reasoning diagnosis, structured feedback, visual reasoning or learning analytics.
+
+### Potential Research Direction
+
+The investigation suggests four areas worth examining further:
+
+1. Source-grounded legal feedback reliability.
+2. Retrieval relevance and citation correctness.
+3. Independent assessment of performance on unfamiliar cases.
+4. Appropriate abstention when retrieved evidence is insufficient.
+
+These remain research hypotheses rather than confirmed gaps in Tark's product.
+
+### Limitations of This Investigation
+
+The review was based on public product descriptions and a public AI Grand Challenge submission. No hands-on product testing, independent technical audit or verification of institutional learning outcomes has been completed.
+
+### Final Decision
+
+Ratiqora will not attempt to replicate Tark's general-purpose Socratic legal tutoring approach.
+
+Further development should investigate whether a reproducible, source-grounded evaluation framework for Indian Constitutional Law can provide measurable evidence about AI feedback reliability and transfer of legal reasoning skills to unfamiliar cases.
+
+The investigation of Tark's publicly available information is complete for this initial research stage. A deeper product comparison may be conducted if hands-on access becomes available.
+
+Parliament can change the Indian Constitution, but it cannot destroy its most important basic features.
