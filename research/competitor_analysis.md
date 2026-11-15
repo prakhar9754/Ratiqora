@@ -315,3 +315,224 @@ Further development should investigate whether a reproducible, source-grounded e
 The investigation of Tark's publicly available information is complete for this initial research stage. A deeper product comparison may be conducted if hands-on access becomes available.
 
 Parliament can change the Indian Constitution, but it cannot destroy its most important basic features.
+
+# 9. Deep-Dive Analysis: Vakalat.School
+
+**Website:** [https://www.vakalat.school/](https://www.vakalat.school/)
+**Competitor category:** AI-powered legal education and advocacy training
+**Overlap with Ratiqora:** Very high
+
+## 9.1 Product Overview
+
+Vakalat.School is an AI-powered legal education platform designed for law students, legal aspirants and practising advocates.
+
+Its main objective is to make legal education accessible through AI-based teaching, examinations, practical advocacy simulations and legal competency assessment.
+
+The platform advertises three major learning components:
+
+1. AI Professor.
+2. AI Moot Court.
+3. AI Classes.
+
+It also offers AI-generated courses, examinations, grading, multilingual learning and law-awareness scoring.
+
+## 9.2 AI Professor — Tutoring and Examinations
+
+Vakalat.School provides an AI professor that teaches legal subjects and helps students understand legal concepts.
+
+Its advertised capabilities include:
+
+- Generating complete courses and structured lessons.
+- Explaining legal provisions and judgments.
+- Answering student questions through one-to-one chat.
+- Providing personalised explanations and revision.
+- Generating written examination papers.
+- Evaluating typed answers and uploaded handwritten answer sheets.
+- Providing marks and feedback for individual questions.
+
+For example, its Constitutional Law demonstration discusses the Basic Structure Doctrine(Parliament can change the Indian Constitution, but it cannot destroy its most important basic features.) and the Kesavananda Bharati judgment.
+
+**Finding:** AI legal tutoring, Constitutional Law explanations, examination generation and AI-based grading cannot independently be claimed as unique Ratiqora features.
+
+## 9.3 AI Moot Court — Practical Legal Reasoning
+
+Vakalat.School provides an AI Moot Court that allows students and advocates to practise legal arguments before an AI judge.
+
+Its advertised workflow:
+
+1. **Receive a legal problem:** Select a legal area and receive a moot problem, or upload an actual case file.
+2. **Present arguments:** Submit arguments through text or voice.
+3. **Face AI cross-examination:** The AI judge asks questions, challenges arguments and examines cited authorities.
+4. **Receive a judgment:** The AI produces a reasoned judgment and advocacy scorecard.
+
+It also advertises counsel-versus-counsel competitions in which two participants argue opposite sides of the same case.
+
+The platform evaluates several advocacy dimensions:
+
+- Legal reasoning.
+- Use of legal authorities.
+- Structure and clarity.
+- Response to judicial questions.
+- Court craft and presentation.
+
+**Finding:** Case simulations, legal argument construction, counterargument practice, AI questioning and structured advocacy feedback already exist as advertised capabilities.
+
+## 9.4 Legal Source and Provision Verification
+
+An important feature of Vakalat.School's AI Moot Court is its advertised legal provision verification.
+
+The platform claims that its AI judge checks cited legal provisions against a library of Indian laws.
+
+For example, if a student incorrectly uses Article 35 instead of Article 14 for an equality-related argument, the AI judge is expected to identify the mistake and explain the correct provision.
+
+It also advertises mappings between older and newer laws, such as:
+
+- IPC to BNS.
+- CrPC to BNSS.
+- Evidence Act to BSA.
+
+However, two different technical tasks must be distinguished:
+
+1. **Legal provision verification:** Checking whether the cited(sourced) Article or section exists and whether the reference is correct.
+2. **Judgment-passage verification:** Checking whether a specific passage from a judgment genuinely supports the legal argument being made.
+
+The public product information establishes that provision verification is advertised. It does not independently establish the accuracy or completeness of paragraph-level judgment verification.
+
+**Finding:** Basic legal provision checking cannot be considered a unique Ratiqora feature. More detailed source-grounded reasoning evaluation remains worth investigating.
+
+## 9.5 AI Classes and Multilingual Learning
+
+Vakalat.School also advertises live AI-powered classrooms.
+
+Its capabilities include:
+
+- Scheduled group classes.
+- AI faculty teaching through voice and a digital blackboard.
+- Student questions during live classes.
+- Course revisions and replay.
+- Interactive learning with other students.
+
+The platform advertises multilingual(multilanguage) teaching and learning.
+
+Its official website mentions support for 22 Indian languages for the AI Faculty, while its AI Moot Court page specifies 12 Indian languages for courtroom hearings.
+
+**Finding:** Multilingual legal learning and interactive AI teaching are already advertised capabilities.
+
+## 9.6 Law-Awareness Score and Institutional Features
+
+Vakalat.School also aims to measure and communicate a student's legal competence.
+
+Its advertised features include:
+
+- A law-awareness score based on examination performance.
+- Subject-wise competency breakdowns.
+- AI-generated and AI-graded examinations.
+- Shareable student scores.
+- Employer access to student competency information.
+- College-oriented white-label platforms.
+- Bulk student enrolment.
+- Institutional examinations and gradebooks.
+
+The platform aims to connect legal education with employment by allowing employers to evaluate candidates using their reported legal competency scores.
+
+**Finding:** Student assessment, competency scoring, institutional learning management and educational analytics cannot independently be claimed as unique Ratiqora contributions.
+
+## 9.7 Ratiqora Feature Overlap
+
+| Proposed feature                      | Vakalat.School overlap        |
+| ------------------------------------- | ----------------------------- |
+| AI legal tutoring                     | High                          |
+| Constitutional Law learning           | High                          |
+| Socratic questioning                  | Advertised                    |
+| Case simulations                      | High                          |
+| Argument and counterargument practice | High                          |
+| AI grading                            | High                          |
+| Reasoning and advocacy feedback       | High                          |
+| Legal provision checking              | Advertised                    |
+| Multilingual learning                 | High                          |
+| Judgment-passage verification         | Not independently established |
+| Retrieval relevance evaluation        | Not established               |
+| Unsupported-claim measurement         | Not established               |
+| Appropriate abstention evaluation     | Not established               |
+| Unfamiliar-case transfer evaluation   | Not established               |
+
+"Not established" means the capability has not been verified through the public information reviewed. It does not mean Vakalat.School lacks the capability.
+
+## 9.8 Research Implications for Ratiqora
+
+The investigation shows that Ratiqora should not attempt to differentiate itself merely through:
+
+- AI legal tutoring.
+- Constitutional Law explanations.
+- Socratic questioning.
+- Case simulations.
+- Argument and counterargument practice.
+- AI-generated grading.
+- Legal provision checking.
+- Multilingual learning.
+
+These capabilities already appear in Vakalat.School's advertised product offering.
+
+Instead, further investigation should focus on more specific research questions.
+
+### Research Question A — Judgment-Passage Verification
+
+Can an AI system identify the exact passages in a judgment that support or contradict a student's legal argument?
+
+### Research Question B — Retrieval Quality
+
+Can we measure whether a RAG system retrieves the correct Constitutional Law passages for a particular legal issue?
+
+### Research Question C — Feedback Reliability
+
+Can we measure whether AI-generated feedback correctly identifies reasoning errors without introducing unsupported legal claims?
+
+### Research Question D — Appropriate Abstention
+
+Can the system recognise when available legal evidence is insufficient and avoid generating unsupported legal conclusions?
+
+### Research Question E — Unfamiliar-Case Transfer
+
+Can students improve their ability to analyse unfamiliar Constitutional Law cases after receiving source-grounded feedback?
+
+These are potential research directions, not confirmed market gaps.
+
+## 9.9 Preliminary Conclusion
+
+Vakalat.School is a very high-overlap competitor for Ratiqora.
+
+Its AI Professor, AI Moot Court, legal examinations, advocacy scorecards and legal provision verification cover many of the features originally proposed for Ratiqora.
+
+Therefore, Ratiqora should not be developed as another generic AI legal tutor or AI moot court.
+
+The stronger direction for further investigation is a source-grounded legal reasoning evaluation system focused on Indian Constitutional Law.
+
+The proposed system should investigate whether AI feedback is supported by relevant judgment passages, whether retrieval is accurate, whether reasoning errors are correctly identified, and whether students improve when analysing unfamiliar cases.
+
+This research direction is still a hypothesis and requires comparison with existing benchmarks, dataset feasibility analysis, expert validation and experimental evaluation.
+
+## 9.10 Investigation Limitations
+
+This investigation is based primarily on publicly available product pages, platform descriptions and the public application listing.
+
+The following activities have not yet been completed:
+
+- Full hands-on testing of the AI Professor.
+- Full hands-on testing of AI Moot Court.
+- Independent verification of legal grading accuracy.
+- Technical inspection of the RAG architecture.
+- Independent evaluation of judgment citation correctness.
+- Independent measurement of student learning improvements.
+
+Therefore, advertised capabilities should not be treated as independently demonstrated performance.
+
+## 9.11 Sources
+
+1. Official Vakalat.School website: [https://www.vakalat.school/](https://www.vakalat.school/)
+2. AI Professor: [https://www.vakalat.school/ai](https://www.vakalat.school/ai)
+3. AI Moot Court: [https://www.vakalat.school/ai-moot](https://www.vakalat.school/ai-moot)
+4. Courses: [https://www.vakalat.school/courses](https://www.vakalat.school/courses)
+5. How to Learn: [https://www.vakalat.school/how-to-learn](https://www.vakalat.school/how-to-learn)
+6. About Vakalat.School: [https://www.vakalat.school/about](https://www.vakalat.school/about)
+7. Google Play application listing: [https://play.google.com/store/apps/details?id=com.imaganitations.vakalatschool](https://play.google.com/store/apps/details?id=com.imaganitations.vakalatschool)
+
